@@ -1,0 +1,43 @@
+name: Publier Edelweiss
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Préparer le site
+        run: |
+          mkdir _site
+          cp index.html styles.css app.js config.js favicon.svg CNAME robots.txt sitemap.xml _site/
+          mkdir _site/assets
+          cp assets/edelweiss-packshot.png assets/runneuse-web.jpg assets/flow-packshot.svg assets/pano-web.jpg assets/fond-1-prolonge.jpg _site/assets/
+          python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+          site = Path('_site')
+          page = site / 'index.html'
+          html = page.read_text()
+          for name in ('styles.css', 'app.js', 'config.js', 'favicon.svg'):
+              version = hashlib.sha256((site / name).read_bytes()).hexdigest()[:12]
+              html = html.replace(f'"{name}"', f'"{name}?v={version}"')
+          page.write_text(html)
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deployment
