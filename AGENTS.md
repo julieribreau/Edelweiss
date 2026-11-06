@@ -14,6 +14,6 @@ Objectif : mesurer les intentions d’achat à partir d’une offre explicite et
 ## Publication
 
 Julie demande la publication automatique après chaque modification du site, sans nouvelle confirmation.
-Le projet Edelweiss reprend Les Supers dans un dépôt distinct : julieribreau/Edelweiss. Domaine demandé : https://julie-ribreau.com/. Conserver Les Supers et Écrin comme projets distincts. Communiquer le lien direct après vérification du déploiement.
+Le projet Edelweiss reprend Les Supers dans un dépôt distinct : julieribreau/Edelweiss. Adresse : https://edelweiss.julie-ribreau.com/. Le domaine principal https://julie-ribreau.com/ est réservé à la consultation Diététique et Sport : les deux sites doivent cohabiter. Ne jamais remplacer cette association par Edelweiss. Conserver Les Supers et Écrin comme projets distincts. Communiquer le lien direct après vérification du déploiement.
 Effectuer les vérifications appropriées et vérifier le déploiement avant de communiquer une publication réussie.
 Si la publication ou la collecte des réponses est bloquée, décrire précisément ce qui manque.
