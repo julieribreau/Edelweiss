@@ -272,3 +272,11 @@ footer{border-top:1px solid #062b1f20;background:white}
 
 /* Garder les mentions et leur trait au-dessus de la gourde sur mobile. */
 @media(max-width:800px){.visual-motto{order:-1;margin-top:40px;margin-bottom:8px}}
+
+/* Titres de section dans la même famille que le logo. */
+main h1,main h2,main h1 em,main h2 em{font-family:"Anybody",Arial,sans-serif;font-weight:800;font-style:normal;letter-spacing:-.035em}
+.nutrition-challenges{display:grid;gap:12px;margin:28px 0}
+.nutrition-challenge{padding:19px 21px;border:1px solid var(--line);border-left:3px solid var(--ink);background:#fff9}
+.nutrition-challenge h3{font-family:"Anybody",Arial,sans-serif;font-weight:800;font-size:16px;line-height:1.35;letter-spacing:-.02em;margin:0 0 8px}
+.daily-copy .nutrition-challenge p{font-size:13px;line-height:1.65;margin:0}
+@media(max-width:650px){.nutrition-challenge{padding:16px 18px}.nutrition-challenge h3{font-size:15px}}
