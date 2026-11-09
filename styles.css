@@ -22,7 +22,7 @@ main{padding-top:var(--navigation-height, 48px)}
 body>header>nav a{font-family:"Montserrat",Arial,sans-serif;font-weight:500;font-size:clamp(0.375rem,0.95vw,0.7875rem);line-height:1.2;letter-spacing:normal}
 
 /* Police du logo identique à Écrin. */
-.logo{font-family:"Anybody",Arial,sans-serif;font-weight:800;letter-spacing:0.16em;line-height:1.15;padding-left:0.16em}
+.logo{font-family:"Anybody",Arial,sans-serif;font-weight:800;letter-spacing:0;line-height:1.15;padding-left:0}
 .brandbar .logo{font-size:clamp(1.35rem,4.05vw,2.3625rem)}
 
 /* Adaptation aux écrans étroits et aux interfaces tactiles. */
@@ -57,7 +57,7 @@ body>header>nav{padding-block:4px}
 @media(max-width:480px){
   .brandbar{padding:22px 56px 18px}
   .brandbar>.icon-button{left:8px}
-  .brandbar .logo{font-size:clamp(18px,5.3vw,24px);letter-spacing:0.12em;white-space:nowrap}
+  .brandbar .logo{font-size:clamp(18px,5.3vw,24px);letter-spacing:0;white-space:nowrap}
   .hero h1{font-size:clamp(38px,10vw,48px)}
   .hero-copy{padding:38px 7%}
   .hero-art{min-height:370px}
