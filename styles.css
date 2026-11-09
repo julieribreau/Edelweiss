@@ -134,7 +134,7 @@ main .button:focus-visible{outline-color:var(--ink)}
 .section h2{font-size:clamp(28.5px,3.166vw,45.915px);line-height:1.13}
 .daily{display:grid;grid-template-columns:1fr 1fr;padding:0;background:#f5f7f6;border:0}
 .daily-photo{margin:0;position:relative;min-height:460px}
-.daily-photo img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:28% center}
+.daily-photo img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:58% center}
 .daily-photo figcaption{position:absolute;top:35px;left:8%;font-size:10px;line-height:1.8;letter-spacing:.2em;color:#fff;text-shadow:0 1px 6px #062b1f}
 .daily-copy{padding:65px 10%;align-self:center}
 .daily-copy p{font-size:14px}
@@ -187,7 +187,7 @@ footer{border-top:1px solid #062b1f20;background:white}
  .visual-motto{right:10%;top:50px}
  .daily{grid-template-columns:minmax(0,1fr)}
  .daily-photo{min-height:380px}.daily-copy{padding:45px 7%}
- .daily-photo img{object-position:35% 35%}
+ .daily-photo img{object-position:58% 35%}
  .section:not(.daily){padding:58px 7%}
  .section h2{font-size:31.666px}
  .commitment{background-position:65% center}
