@@ -317,3 +317,8 @@ main h1,main h2,main h1 em,main h2 em{font-family:"Anybody",Arial,sans-serif;fon
 .solution-card>p{max-width:500px;margin:0 auto}.solution-card h3{text-align:center}
 
 .solutions-cta{display:flex;justify-content:center;margin-top:36px}.solutions-cta .button:hover{background:#174637;border-color:#174637}
+
+/* Symbole floral centré au-dessus du nom, sans changer la navigation. */
+.brandbar .logo{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:26px;line-height:1.1}
+.brand-symbol{display:block;width:104px;height:auto;object-fit:contain}
+@media(max-width:480px){.brandbar .logo{font-size:20px}.brand-symbol{width:82px}}
