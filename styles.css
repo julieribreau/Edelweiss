@@ -339,3 +339,8 @@ body>header>nav{padding-top:5px;padding-bottom:8px}
 /* Navigation plus discrète et bas du bandeau resserré. */
 body>header>nav a{font-size:clamp(.34rem,.855vw,.709rem)}
 body>header>nav{padding-bottom:3px}
+
+/* Réduire aussi la hauteur des liens, sans réduire les cibles tactiles du menu mobile. */
+@media(min-width:651px){body>header>nav a{min-height:32px}}
+@media(min-width:651px) and (max-width:800px){body>header>nav a{font-size:11px}}
+@media(max-width:650px){body>header>nav a{font-size:13px;min-height:48px}}
