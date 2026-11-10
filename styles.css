@@ -327,3 +327,11 @@ main h1,main h2,main h1 em,main h2 em{font-family:"Anybody",Arial,sans-serif;fon
 .brandbar{padding-top:8px;padding-bottom:8px}.brandbar .logo{gap:2px;font-size:24px}.brand-symbol{width:84px}
 body>header>nav{padding-top:10px;padding-bottom:10px}
 @media(max-width:480px){.brandbar{padding-top:7px;padding-bottom:7px}.brandbar .logo{font-size:19px}.brand-symbol{width:70px}}
+
+/* Même respiration entre les blocs, le CTA et le bas de la section. */
+.section.approach{padding-bottom:48px}.solutions-cta{margin-top:48px}
+/* Symbole un peu plus présent, nom plus discret et navigation rapprochée. */
+.brandbar{padding-bottom:3px}.brandbar .logo{font-size:20px;gap:1px}.brand-symbol{width:94px}
+body>header>nav{padding-top:5px;padding-bottom:8px}
+@media(max-width:800px){.section.approach{padding-bottom:36px}.solutions-cta{margin-top:36px}}
+@media(max-width:480px){.brandbar{padding-bottom:3px}.brandbar .logo{font-size:16px}.brand-symbol{width:78px}}
