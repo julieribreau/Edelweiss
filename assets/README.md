@@ -15,3 +15,7 @@ Les photographies et fonds décoratifs sont repris du site Les Supers.
 ## Courbes de la Mortice
 
 Fond extrait de la capture topographique fournie par Julie le 9 novembre 2026. Source conservée dans `mortice-topographie-source.png`. Le fichier SVG embarque cette capture et filtre ses couleurs pour afficher les courbes de niveau en vert forêt. Aucun tracé redessiné, aucune rotation ni déformation ; seul un cadrage est appliqué. Affichage limité au bas droit du hero avec faible opacité et bord fondu.
+
+## Symbole floral transparent
+
+`logo-floral-alpin-transparent.png` : fond quadrillé retiré avec l’outil intégré imagegen. Prompt : supprimer uniquement le fond gris quadrillé, y compris dans les espaces intérieurs ; conserver les montagnes, l’arc, le chemin, les feuilles et les deux fleurs dans leurs couleurs d’origine ; garder les pétales ivoire opaques ; produire un PNG à fond réellement transparent, sans nouveau décor ni texte.

@@ -322,3 +322,8 @@ main h1,main h2,main h1 em,main h2 em{font-family:"Anybody",Arial,sans-serif;fon
 .brandbar .logo{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:26px;line-height:1.1}
 .brand-symbol{display:block;width:104px;height:auto;object-fit:contain}
 @media(max-width:480px){.brandbar .logo{font-size:20px}.brand-symbol{width:82px}}
+
+/* Bandeau compact : rapprocher le symbole, le nom et la navigation. */
+.brandbar{padding-top:8px;padding-bottom:8px}.brandbar .logo{gap:2px;font-size:24px}.brand-symbol{width:84px}
+body>header>nav{padding-top:10px;padding-bottom:10px}
+@media(max-width:480px){.brandbar{padding-top:7px;padding-bottom:7px}.brandbar .logo{font-size:19px}.brand-symbol{width:70px}}
