@@ -19,3 +19,7 @@ Fond extrait de la capture topographique fournie par Julie le 9 novembre 2026. S
 ## Symbole floral transparent
 
 `logo-floral-alpin-transparent.png` : fond quadrillé retiré avec l’outil intégré imagegen. Prompt : supprimer uniquement le fond gris quadrillé, y compris dans les espaces intérieurs ; conserver les montagnes, l’arc, le chemin, les feuilles et les deux fleurs dans leurs couleurs d’origine ; garder les pétales ivoire opaques ; produire un PNG à fond réellement transparent, sans nouveau décor ni texte.
+
+## Fleurs sans aplat crème
+
+`logo-floral-alpin-ajoure.png` : édition avec imagegen. Prompt : rendre l’intérieur crème des pétales des deux edelweiss transparent, garder les contours verts, les cœurs jaunes et les petits points foncés, conserver montagnes, arc, chemin et feuilles ; fond transparent sans halo ni nouvel élément.
