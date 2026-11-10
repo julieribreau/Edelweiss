@@ -370,3 +370,6 @@ main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:blo
 .commitment-description{min-height:100px}.commitment-description p{font-family:"Lora",Georgia,serif;font-size:14px;line-height:1.75}
 @media(max-width:1000px){.commitment-pillars{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}}
 @media(max-width:650px){.commitment-pillars{grid-template-columns:1fr}.commitment-pillar h3{min-height:0}.commitment-description{min-height:64px}}
+
+/* Libérer toute la largeur pour le titre des engagements. */
+.commitments-heading .science-heading{max-width:none}.commitments-heading h2{max-width:none}
