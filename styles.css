@@ -356,3 +356,6 @@ main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:blo
 .brandbar .logo{gap:0}.brandbar .logo>span{margin-top:-4px}
 @media(min-width:1101px){body>header>nav{gap:43px}}
 @media(min-width:651px) and (max-width:1100px){body>header>nav{gap:28px}}
+
+/* Centrer le groupe titre sur le texte voisin. */
+.science-layout{align-items:center}.science-heading h2{margin-bottom:0}.science-copy p:last-child{margin-bottom:0}
