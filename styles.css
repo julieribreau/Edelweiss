@@ -373,3 +373,8 @@ main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:blo
 
 /* Libérer toute la largeur pour le titre des engagements. */
 .commitments-heading .science-heading{max-width:none}.commitments-heading h2{max-width:none}
+
+/* Numéros centrés et titres sur deux lignes dans les engagements. */
+.commitment-pillar .pillar-number{display:block;text-align:center;font-family:"Anybody",Arial,sans-serif;font-size:28px;font-weight:800;line-height:1.2;margin-bottom:18px}
+.commitment-pillar h3{text-align:center;min-height:2.8em;font-size:17px;line-height:1.4}
+@media(max-width:650px){.commitment-pillar .pillar-number{font-size:26px}.commitment-pillar h3{min-height:2.8em}}
