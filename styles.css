@@ -359,3 +359,6 @@ main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:blo
 
 /* Centrer le groupe titre sur le texte voisin. */
 .science-layout{align-items:center}.science-heading h2{margin-bottom:0}.science-copy p:last-child{margin-bottom:0}
+
+/* Trois lignes équilibrées pour le titre de la nutrition. */
+#la-science .nutrition-title{max-width:900px;margin-inline:auto;font-size:clamp(24px,3.2vw,42px);line-height:1.15}
