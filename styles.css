@@ -335,3 +335,7 @@ body>header>nav{padding-top:10px;padding-bottom:10px}
 body>header>nav{padding-top:5px;padding-bottom:8px}
 @media(max-width:800px){.section.approach{padding-bottom:36px}.solutions-cta{margin-top:36px}}
 @media(max-width:480px){.brandbar{padding-bottom:3px}.brandbar .logo{font-size:16px}.brand-symbol{width:78px}}
+
+/* Navigation plus discrète et bas du bandeau resserré. */
+body>header>nav a{font-size:clamp(.34rem,.855vw,.709rem)}
+body>header>nav{padding-bottom:3px}
