@@ -351,3 +351,8 @@ main .eyebrow{font-family:"Lora",Georgia,serif;font-size:10px;font-weight:500;li
 main .eyebrow::after{content:"";display:block;height:1px;width:48px;background:currentColor;opacity:.45;flex-shrink:0}
 
 main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:block}
+
+/* Rapprocher le nom du symbole et aérer les liens du bandeau. */
+.brandbar .logo{gap:0}.brandbar .logo>span{margin-top:-4px}
+@media(min-width:1101px){body>header>nav{gap:43px}}
+@media(min-width:651px) and (max-width:1100px){body>header>nav{gap:28px}}
