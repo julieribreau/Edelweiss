@@ -344,3 +344,10 @@ body>header>nav{padding-bottom:3px}
 @media(min-width:651px){body>header>nav a{min-height:32px}}
 @media(min-width:651px) and (max-width:800px){body>header>nav a{font-size:11px}}
 @media(max-width:650px){body>header>nav a{font-size:13px;min-height:48px}}
+
+/* Une même typographie pour la navigation et tous les libellés de section. */
+body>header>nav a{font-family:"Lora",Georgia,serif}
+main .eyebrow{font-family:"Lora",Georgia,serif;font-size:10px;font-weight:500;line-height:1.5;letter-spacing:.22em;display:flex;align-items:center;gap:16px}
+main .eyebrow::after{content:"";display:block;height:1px;width:48px;background:currentColor;opacity:.45;flex-shrink:0}
+
+main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:block}
