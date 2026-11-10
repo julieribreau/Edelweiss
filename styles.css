@@ -315,3 +315,5 @@ main h1,main h2,main h1 em,main h2 em{font-family:"Anybody",Arial,sans-serif;fon
 @media(max-width:480px){.solution-visual{height:310px}.solution-card>p{font-size:14px}}
 
 .solution-card>p{max-width:500px;margin:0 auto}.solution-card h3{text-align:center}
+
+.solutions-cta{display:flex;justify-content:center;margin-top:36px}.solutions-cta .button:hover{background:#174637;border-color:#174637}
