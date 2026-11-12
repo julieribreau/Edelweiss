@@ -390,3 +390,34 @@ main section .eyebrow{font-size:10px}main .hero-copy .eyebrow::after{display:blo
 .story-signature .signature-role{font-family:"Lora",Georgia,serif;font-size:16px;font-weight:700;line-height:1.6;margin:0}
 .story-narrative p{font-size:15px;line-height:1.8;margin:0 0 20px}.story-narrative p:last-child{margin-bottom:0}
 @media(max-width:650px){.story-copy .story-quote{font-size:72px}.story-narrative p{font-size:14px}}
+
+/* Grands écrans : fonds pleine largeur et contenu à une largeur de lecture confortable. */
+@media(min-width:1601px){
+ body{max-width:none}
+ :root{--wide-gutter:max(7%,calc((100% - 1440px)/2))}
+ .hero,.section{max-width:none;width:100%}
+ .section:not(.daily):not(.story){padding-inline:var(--wide-gutter);padding-block:clamp(85px,5.3vw,120px)}
+ .section.approach{padding-bottom:64px}
+ .editorial-hero,.hero-art{min-height:clamp(650px,40vw,840px)}
+ .hero-copy{padding:clamp(70px,5vw,110px) 48px 70px max(14%,calc(100% - 720px))}
+ .hero-copy h1{font-size:clamp(41px,2.55vw,52px);max-width:640px}
+ .hero-copy .intro{font-size:17px;max-width:520px}
+ .hero-art{width:100%;max-width:800px;justify-self:start}
+ .hero-bottle{height:clamp(600px,36vw,760px);width:78%}
+ .visual-motto{top:42px;left:54%;font-size:12px}
+ .editorial-hero::after{right:max(0px,calc((100% - 1920px)/2));width:600px;height:88%}
+ .section h2{font-size:clamp(46px,2.5vw,54px)}
+ .daily-copy{padding:80px clamp(64px,5vw,150px)}
+ .daily-copy h2{font-size:clamp(40px,2.2vw,48px);max-width:640px}
+ .daily-copy>p,.daily-copy .approach-summary{max-width:640px}
+ .daily-copy p{font-size:16px}
+ .nutrition-challenges{max-width:720px}
+ .daily-copy .nutrition-challenge p{font-size:14px}
+ .story-copy{padding:100px clamp(80px,7vw,220px)}
+ .story-copy>*{max-width:640px;margin-inline:auto}
+ .story-narrative p{font-size:16px}
+ .solution-visual{height:clamp(390px,24vw,480px)}
+ .solution-card{padding:40px}
+ .contact{column-gap:100px}
+ footer{padding-inline:var(--wide-gutter)}
+}
