@@ -24,7 +24,7 @@ jobs:
           mkdir _site
           cp index.html styles.css app.js config.js favicon.svg CNAME robots.txt sitemap.xml _site/
           mkdir _site/assets
-          cp assets/logo-floral-alpin-ajoure.png assets/application-plan-course.svg assets/julie-photo.jpg assets/edelweiss-gourde-v3.png assets/traileuse-sentier.jpg assets/flow-packshot.svg assets/pano-web.jpg assets/mortice-topographie.svg _site/assets/
+          cp assets/logo-floral-alpin-ajoure.png assets/application-plan-course.svg assets/julie-photo.jpg assets/edelweiss-gourde-v3.png assets/notre-approche.jpeg assets/flow-packshot.svg assets/pano-web.jpg assets/mortice-topographie.svg _site/assets/
           python3 - <<'PY'
           import hashlib
           from pathlib import Path
